@@ -14,15 +14,23 @@ show tables untuk melohat tabel apa saja yang tertera
 describe employees untuk mendeskripsikan tabel dari employees
 
 
-#### 📍 View of Data
-- _Poin-poin Utama_
-- _Contoh/Use-Case_
-- _Catatan Tambahan_
+#### 📍Data Definition language
+SQL Data Definition Language (DDL) memungkinkan Anda mendefinisikan data relasional, termasuk:
+Skema untuk setiap relasi.
+Jenis nilai yang terkait dengan setiap atribut.
+Kendala Integritas
+Kumpulan indeks yang harus dipertahankan untuk setiap relasi.
+Informasi keamanan dan otorisasi untuk setiap relasi.
+Struktur penyimpanan fisik setiap relasi pada disk.
 
-#### 📍 DB Languages, Design, Architecture, and Users and Administrator
-- _Poin-poin Utama_
-- _Contoh/Use-Case_
-- _Catatan Tambahan_
+#### 📍SQL parts
+- DML - menyediakan kemampuan untuk membuat permintaan informasi dari database dan menambahkan apartemen ke database, 
+- menghapus apartemen dan mengubah apartemen di database. 
+- integritas - DDL berisi arahan untuk menentukan batasan integritas.
+- Definisi Tampilan - DDL berisi pernyataan untuk mendefinisikan tampilan. 
+- Manajemen Acara - Berisi perintah untuk menentukan awal dan akhir acara. 
+- SQL Tertanam dan SQL Dinamis - Tentukan bagaimana pernyataan SQL dapat disematkan dalam bahasa pemrograman tujuan umum.  
+- Otorisasi - Berisi perintah untuk menentukan hak akses untuk hubungan dan tampilan.
 
 ... (dan seterusnya untuk sub-topik lainnya di Minggu 1)
 
