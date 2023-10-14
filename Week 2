@@ -1,16 +1,26 @@
 ## 📘 My Personal Notes
 
-### 🗓️ Week 2: Introduction to Database (DB)
+### 🗓️ Week 2: intro relation modell (DB)
 
 #### 📍 Definition and Purpose of Database
-- _Poin-poin Utama_
-- _Contoh/Use-Case_
-- _Catatan Tambahan_
+- _Domain sql_
+char. String karakter dengan panjang tetap, panjang n yang ditentukan pengguna.
+varchar String karakter dengan panjang variabel, dengan panjang maksimum n yang ditentukan pengguna.
+int. integer
+
 
 #### 📍 View of Data
-- _Poin-poin Utama_
-- _Contoh/Use-Case_
-- _Catatan Tambahan_
+- _contoh buat tabel instructor_
+create table instructor (
+      ID char(5),
+      name varchar(20), 
+      dept_name  varchar(20),
+      salary numeric(8,2))
+Primary key itu nilai unik seperti nomor id sama nomor seri
+foerign key itu kolom yang isinya primary key tabel lain
+SQL mencegah pembaruan apa pun pada database yang melanggar batasan integritas
+
+
 
 #### 📍 DB Languages, Design, Architecture, and Users and Administrator
 - _Poin-poin Utama_
