@@ -1,11 +1,30 @@
 ## 📘 My Personal Notes
 
-### 🗓️ Week 1: Introduction to Database (DB)
+### 🗓️ Week 3: Introduction to sql (DB)
 
-#### 📍 Definition and Purpose of Database
-- _Poin-poin Utama_
-- _Contoh/Use-Case_
-- _Catatan Tambahan_
+#### 📍 BASIC QUERY STRUCTURE
+- _typical SQL query_
+Select 
+from 
+where
+
+Klausa select mencantumkan atribut yang diinginkan dalam hasil kueri
+contoh kalusa select
+Select name
+from instructor
+
+Klausa Where menentukan kondisi yang harus dipenuhi oleh hasil
+contoh
+Untuk menemukan semua instruktur di Comp. Sains. departemen
+select name	
+from instructor	
+where dept_name = 'Comp. Sci.'
+
+Klausa from mencantumkan relasi yang terlibat dalam kueri
+contoh 
+temukan cartesian instructor x teaches
+select*
+from instructor, teaches
 
 #### 📍 View of Data
 - _Poin-poin Utama_
