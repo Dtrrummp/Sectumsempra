@@ -1,26 +1,27 @@
 ## 📘 My Personal Notes
 
-### 🗓️ Week 1: Introduction to Database (DB)
+### 🗓️ Week 4: Intro SQL 2 (DB)
 
-#### 📍 Definition and Purpose of Database
-- _Poin-poin Utama_
-- _Contoh/Use-Case_
-- _Catatan Tambahan_
+#### 📍 Aggregate Function
+- _Fungsi-fungsi ini beroperasi pada multiset nilai kolom suatu relasi, dan mengembalikan suatu nilai
+avg: average value 
+min:minimum value	
+max:maximum value 
+sum:sum of values	
+count:number of values_
+- _contoh gaji rata-rata instructor di dept comp scince
+select avg (salary)
+from instructor
+where dept_name= 'Comp. Sci.';_
+- _Aggregate function group by
+menemukan gaji rata-rata instructor di setiap departemen
+select dept_name, avg (salary) as avg_salary
+from instructor
+group by dept_name;_
 
-#### 📍 View of Data
-- _Poin-poin Utama_
-- _Contoh/Use-Case_
-- _Catatan Tambahan_
-
-#### 📍 DB Languages, Design, Architecture, and Users and Administrator
-- _Poin-poin Utama_
-- _Contoh/Use-Case_
-- _Catatan Tambahan_
-
-... (dan seterusnya untuk sub-topik lainnya di Minggu 1)
-
----
-
-(_Template di atas dapat diulangi untuk minggu-minggu berikutnya dengan topik dan sub-topik yang relevan._)
-
----
+- _Aggregate function having clause_
+- _menemukan nama dan gaji rata-rata semua departemen yang gaji rata-ratanya lebih besar dari 42000_
+- _select dept_name, avg (salary) as avg_salary
+from instructor
+group by dept_name
+having avg (salary) > 42000;_
